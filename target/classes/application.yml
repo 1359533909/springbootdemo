@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: springdemo
+  datasource:
+    url: jdbc:mysql://47.92.6.36:3333/Test?characterEncoding=UTF-8
+    username: root
+    password: e10adc3949ba59abbe56e057f20f883e
+mybatis:
+    type-aliases-package: com.example.demo.pojo
+    mapper-locations: classpath*:mapper/*Mapper.xml
